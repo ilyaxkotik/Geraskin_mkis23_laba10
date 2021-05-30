@@ -1,0 +1,27 @@
+.row {
+ 
+   display: flex;
+   align-items: flex-start;
+ 
+}
+.row div{
+  padding: 10px;
+  border:1px solid pink;
+}
+.row_cell--1{
+ 
+   flex: 1;
+ 
+}
+.row_cell--2 {
+ 
+   flex: 1;
+   align-self: flex-end;
+ 
+}
+.row_cell--3{
+ 
+   flex: 3;
+   align-self: flex-end;
+ 
+}
